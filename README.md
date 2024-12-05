@@ -33,7 +33,7 @@
 <br>
 <span>Mobile Desgin</span><br/>
 <a href="" target="_blank" >
-<img src="./img/TimberCraft-mobile-landing-page.gif" width="525px"/>
+<img src="./img/TimberCraft-mobile-landing-page.gif" width="225px"/>
 </a>
 <br>
 <span>UI UX Layout Desgin</span><br/>
