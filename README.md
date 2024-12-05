@@ -28,17 +28,17 @@
 <br>
 <span>Desktop Desgin</span><br/>
 <a href="" target="_blank" >
-<img src="./img/TimberCraft-desktop-landing-page.gif" width="225px"/>
+<img src="./img/TimberCraft-desktop-landing-page.gif" width="525px"/>
 </a>
 <br>
 <span>Mobile Desgin</span><br/>
 <a href="" target="_blank" >
-<img src="./img/TimberCraft-mobile-landing-page.gif" width="225px"/>
+<img src="./img/TimberCraft-mobile-landing-page.gif" width="525px"/>
 </a>
 <br>
 <span>UI UX Layout Desgin</span><br/>
 <a href="" target="_blank" >
-<img src="./img/ui-ux-layout-landing-page.gif" width="225px"/>
+<img src="./img/ui-ux-layout-landing-page.gif" width="525px"/>
 </a>
 <br>
 <span>Cover</span><br/>
