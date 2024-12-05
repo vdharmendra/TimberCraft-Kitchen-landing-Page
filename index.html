@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimberCraft Kitchen | Handcrafted Wooden Kitchenware Made from Mountain Timber</title>
+    <meta name="description" content="Discover TimberCraft Kitchen’s collection of premium, handcrafted kitchenware made from sustainably sourced mountain timber. With 48 years of family tradition, we bring timeless quality and craftsmanship to your kitchen. Shop now for lasting elegance.">
+    <meta name="keyword" content="handcrafted kitchenware, wooden kitchen products, mountain timber, sustainable wood, family-owned kitchen shop, premium kitchenware, traditional craftsmanship, TimberCraft Kitchen, custom wood kitchen tools, quality kitchen essentials">
+
+
+    <!--  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- SLIDER SECTION -->
+    <div class="wrapper">
+        <div class="left-col">
+            <img src="./img/logo.png" alt="" class="logo anim">
+
+            <div class="content">
+                <h1 class="anim">Crafting Timeless Kitchens from Mountain Wood</h1>
+                <p class="anim">At TimberCraft Kitchen, we blend tradition with quality. For over 48 years, our family-owned workshop has created durable, handcrafted wood kitchenware, sourced from the heart of the mountains.</p>
+                <button class="anim">Explore Our Collections</button>
+            </div>
+        </div>
+
+        <div class="right-col">
+            <div class="slider anim">
+                <img src="./img/a1.jpg" alt="" id="Slide">
+            </div>
+            <div class="slider-content">
+                <h2 class="anim">Where Quality Meets Timeless Craftsmanship</h2>
+                <hr class="anim">
+                <p class="anim">TimberCraft Kitchen crafts durable, handcrafted woodware from <br> mountain-sourced timber, built on 48 years of family tradition.</p>
+
+                <div class="controller anim">
+                    <img src="./img/l.png" alt="" id="PrevBtn">
+                    <div class="vertical-line"></div>
+                    <img src="./img/r.png" alt="" id="nextBtn">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!--  -->
+    <script >
+    
+    var Slide = document.getElementById("Slide");
+        var PrevBtn = document.getElementById("PrevBtn");
+        var nextBtn = document.getElementById("nextBtn");
+
+        var slideImages = new Array(
+            "img/a1.jpg",
+            "img/a2.jpg",
+            "img/a3.jpg",
+        );
+
+        let i = 0;
+
+        nextBtn.onclick = function(){
+           if(i < 2){
+            Slide.src = slideImages[i+1];
+            i++;
+           }
+        }
+
+        PrevBtn.onclick = function(){
+           if(i > 0){
+            Slide.src = slideImages[i-1];
+            i--;
+           }
+        }
+
+
+    </script>
+</body>
+</html>
